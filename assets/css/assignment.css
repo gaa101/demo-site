@@ -1,14 +1,31 @@
 /* Assignment 1 Styles  */
 /* Hero Image  */
 .clean-block.clean-hero::before{
-    background-image: url(/assets/img/assignment/homepage-hero.jpg);
+    background-image: url(../../assets/img/assignment/homepage-hero.jpg);
     background-size: cover;
+    
 }
 /* Blog main image  */
   .post-image{
-    background-image: url(/assets/img/assignment/blog-main.jpg);
+    background-image: url(../../assets/img/assignment/blog-main.jpg);
     background-size: cover;
   }
 h3, h4{
-    color:#cccccc;
+    color:black;
+}
+
+.btn-outline-primary {
+  background-color: lightgray;
+}
+.clean-block{
+background-color: bisque;
+}
+
+.clean-block.clean-info.dark{
+  background-color: bisque;
+}
+
+
+picture img{
+  width: 100%;
 }
